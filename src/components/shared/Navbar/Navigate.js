@@ -21,7 +21,7 @@ const Navigate = () => {
             <Nav.Link as={HashLink} to="/home" className="">
               Home
             </Nav.Link>
-            <Nav.Link as={HashLink} to="/services" className="">
+            <Nav.Link as={HashLink} to="/products" className="">
               Products
             </Nav.Link>
             <Nav.Link as={HashLink} to="/home#aboutUs" className="">
