@@ -10,6 +10,7 @@ import ManageProducts from "./components/Dashboard/ManageProducts/ManageProducts
 import ManageReviews from "./components/Dashboard/ManageReviews/ManageReviews";
 import MyOrders from "./components/Dashboard/MyOrders/MyOrders";
 import Wellcome from "./components/Dashboard/Wellcome/Wellcome.js";
+import HomepageContainer from "./components/Homepage/HomePageContainer/HomepageContainer";
 
 function App() {
   return (
@@ -19,7 +20,14 @@ function App() {
           {/* <h2 className="text-primary">this is startmart</h2>
 
           <h1 className="text-green-500">test</h1> */}
-
+          <Route
+            path="/"
+            element={<HomepageContainer></HomepageContainer>}
+          ></Route>
+          <Route
+            path="/home"
+            element={<HomepageContainer></HomepageContainer>}
+          ></Route>
           <Route
             path="/dashboard"
             element={<DashboardContainer></DashboardContainer>}

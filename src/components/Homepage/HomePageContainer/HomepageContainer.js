@@ -1,9 +1,10 @@
-import React from 'react';
+import React from "react";
+import Navigate from "../../shared/Navbar/Navigate";
 
 const HomepageContainer = () => {
   return (
     <div>
-      <h2>this is homepage</h2>
+      <Navigate></Navigate>
     </div>
   );
 };

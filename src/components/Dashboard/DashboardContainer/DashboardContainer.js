@@ -8,7 +8,7 @@ const DashboardContainer = () => {
   return (
     <>
       <Navbar
-        style={{ backgroundColor: "#EB7C00" }}
+        style={{ backgroundColor: "#de7909" }}
         expand={false}
         className="p-lg-3 p-md-3 sticky-top"
         variant="dark"
