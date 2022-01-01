@@ -1,11 +1,20 @@
 import './App.css';
+import Navigation from '../src/components/shared/Navbar/Navbar.js'
+import Banner from '../src/components/Homepage/Banner/Banner'
+import { BrowserRouter, Routes } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <h2 className="text-primary">this is startmart</h2>
-
-      <h1 className="text-green-500">test</h1>
+ {/* <BrowserRouter>
+ <Routes>
+    <Route> </Route> */}
+ {/* </Routes>
+ </BrowserRouter> */}
+          
+ <Navigation/>
+      <Banner/>
     </div>
   );
 }
