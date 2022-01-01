@@ -4,13 +4,18 @@ import Login from '../src/components/Authentication/Login/Login';
 
 import AuthProvider from './context/AuthProvider';
 import Navbar from './components/shared/Navbar/Navbar';
+import Footer from './components/shared/Footer/Footer';
+import About from './components/Homepage/About/About';
+import Contact from './components/Homepage/Contact/Contact';
 
 function App() {
   return (
     <div className="App">
       <AuthProvider>
-        <Navbar></Navbar>
-        <Login> </Login>
+        {/* <Login> </Login> */}
+        {/* <About></About> */}
+        {/* <Contact></Contact> */}
+        {/* <Footer></Footer> */}
       </AuthProvider>
     </div>
   );
