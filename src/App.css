@@ -1,3 +1,15 @@
+:root {
+  --primary-color: #eb7c00;
+  --secondary-color: #ffe26d;
+}
+
+.primary-bg-color {
+  background-color: #eb7c00;
+}
+.primary-text-color {
+  color: #eb7c00;
+}
+
 .App {
   text-align: center;
 }
