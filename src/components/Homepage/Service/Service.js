@@ -15,8 +15,8 @@ const Service = ({ service }) => {
         <div className="service pb-3">
             <div className='card'>
             <img src={img} alt="" className='img-fluid'/>
-            <h3>{name}</h3>
-            <h3>{wholePrice} $</h3>
+            <h3><strong>Name: </strong>{name}</h3>
+            <h3><strong>Price: </strong>{wholePrice} $</h3>
             <Button variant="warning">Add to cart</Button>{' '}
             </div>
           
