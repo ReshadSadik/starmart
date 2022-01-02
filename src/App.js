@@ -1,11 +1,22 @@
 import './App.css';
 
+import Login from '../src/components/Authentication/Login/Login';
+
+import AuthProvider from './context/AuthProvider';
+import Navbar from './components/shared/Navbar/Navbar';
+import Footer from './components/shared/Footer/Footer';
+import About from './components/Homepage/About/About';
+import Contact from './components/Homepage/Contact/Contact';
+
 function App() {
   return (
     <div className="App">
-      <h2 className="text-primary">this is startmart</h2>
-
-      <h1 className="text-green-500">test</h1>
+      <AuthProvider>
+        {/* <Login> </Login> */}
+        {/* <About></About> */}
+        {/* <Contact></Contact> */}
+        {/* <Footer></Footer> */}
+      </AuthProvider>
     </div>
   );
 }
