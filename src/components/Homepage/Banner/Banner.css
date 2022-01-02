@@ -4,3 +4,15 @@ img {
     margin: auto;
     object-fit: cover;
   }
+
+  h1{
+    font-size: 40px;
+    
+    color: #fff;
+  }
+
+  p{
+    font-size: 20px;
+    color: #fff;
+
+  }

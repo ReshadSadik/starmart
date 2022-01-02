@@ -1,5 +1,5 @@
 import React from 'react';
-import { Carousel } from 'react-bootstrap';
+import { Button, Carousel } from 'react-bootstrap';
 
 import './Banner.css'
 
@@ -15,8 +15,9 @@ const Banner = () => {
       alt="First slide"
     />
     <Carousel.Caption>
-      <h3>first banner this is</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      <h1 className='outline-warning'>High Potential Products By Country</h1>
+      <p>Picked items for local tastes</p>
+      <Button variant="outline-light">Explore More</Button>{' '}
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -27,8 +28,9 @@ const Banner = () => {
     />
 
     <Carousel.Caption>
-      <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <h1>Popular Supplier</h1>
+      <p>Discover Popular Products</p>
+      <Button variant="outline-light">Explore More</Button>{' '}
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -38,9 +40,11 @@ const Banner = () => {
       alt="Third slide"
     />
 
+
     <Carousel.Caption>
-      <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      <h1>Featured Marchants</h1>
+      <p>Discover Suppliers With Local Warehouses</p>
+      <Button variant="outline-light">Explore More</Button>{' '}
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>

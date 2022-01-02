@@ -1,0 +1,63 @@
+.service{
+    background-color: white;
+    border-radius:20px ;
+
+}
+
+.card{  
+        width: 100%;
+        padding: 9px 20px 9px 20px;
+        margin-bottom: 0px;
+        background: #ffffff;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        box-sizing: border-box;
+        height: 100% !important;
+}
+
+.pagination{
+    margin: 30px;
+
+}
+
+.pagination button {
+    padding:  0 10px;
+    margin-right: 20px;
+    border: 1px solid #E77B01;
+}
+
+
+.pagination .selected {
+    background-color: #E77B01;
+    color: white;
+}
+
+.paginationBtn{
+    width: 80%;
+    height: 40%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.paginationBtn a {
+    padding: 10px;
+    margin: 8px;
+    border-radius: 5px;
+    border: 1px solid #E77B01;
+    cursor: pointer;
+    color: #E77B01;
+}
+
+
+.paginationBtn a:hover{
+    color: white;
+    background-color: #E77B01;
+}
+
+.paginationActive a{
+    color: white;
+    background-color: #E77B01;
+}
+
+
