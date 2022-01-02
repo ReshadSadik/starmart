@@ -13,10 +13,10 @@ const Service = ({ service }) => {
    
     return (
         <div className="service pb-3">
-            <div className='card'>
+            <div className='amircard'>
             <img src={img} alt="" className='img-fluid'/>
             <h3><strong>Name: </strong>{name}</h3>
-            <h3><strong>Price: </strong>{wholePrice} $</h3>
+            <h3><strong>price: </strong>{wholePrice} $</h3>
             <Button variant="warning">Add to cart</Button>{' '}
             </div>
           

@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import './Services.css';
 import Service from '../Service/Service';
 import ReactPaginate from 'react-paginate';
-
+import './Services.css'
 
 
 const Services = () => {
@@ -44,7 +44,7 @@ const Services = () => {
 
     return (
         <div id="services">
-            <h1 className="text-warning mt-5">All Products</h1>
+            <h1 className="text-warning mt-5 servicesh1">All Products</h1>
             <div className="service-container container-fluid">
                 {/* {
                     services.map(service => <Service
