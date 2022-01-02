@@ -12,10 +12,10 @@ function App() {
   return (
     <div className="App">
       <AuthProvider>
-        {/* <Login> </Login> */}
-        {/* <About></About> */}
-        {/* <Contact></Contact> */}
-        {/* <Footer></Footer> */}
+         <Login> </Login> 
+         <About></About> 
+         <Contact></Contact> 
+        <Footer></Footer> 
       </AuthProvider>
     </div>
   );
